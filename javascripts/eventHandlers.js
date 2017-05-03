@@ -16,8 +16,7 @@ var CarLot = (function(carlotFromBefore) {
             //when clicked, the cards are resest to white and then immediately the clicked card has the styling added
                 CarLot.resetCards(event);
             // When you click on one of the car elements, change the width of the border to a higher value, and change the background color to any other color of your choosing.
-                event.target.closest("div").classList.add("bordered");
-                event.target.closest("div").classList.add("background");
+                CarLot.changeStyle(event.currentTarget, "selected");
                 // Also, on click of the car element, clear the value of the text input in the navbar, and put the cursor in the text input.
                 text = event.target.closest("div").querySelector(".card-description");
                 userInput.value = "";

@@ -11,10 +11,7 @@
     margin-bottom: 20px;
 }
 
-.bordered {
+.selected {
     border: 5px solid lightgrey;
-}
-
-.background {
     background-color: tomato;
 }

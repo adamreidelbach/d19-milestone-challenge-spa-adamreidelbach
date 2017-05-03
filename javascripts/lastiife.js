@@ -12,8 +12,7 @@ var CarLot = (function(carlotFromBefore) {
         // console.log("carContainer", carContainer);
         for (var i = 0; i < carContainer.length; i++) {
             console.log("carContainer", carContainer[i]);
-                carContainer[i].classList.remove("bordered");
-                carContainer[i].classList.remove("background");
+                carContainer[i].classList.remove("selected");
             }
         }
 
@@ -22,8 +21,7 @@ var CarLot = (function(carlotFromBefore) {
 // A color name of your choice (see behavior requirement 5 above).
 
     carlotFromBefore.changeStyle = function(element, color) {
-            var userInput = document.getElementById("userInput");
-            // INCOMPLETE take this user input and make that string change the color of the background
+            element.classList.add(color);
         }
 
 
