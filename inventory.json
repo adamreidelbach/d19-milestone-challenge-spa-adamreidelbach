@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": "2013",
+      "price": "10999",
+      "description": "This outstanding example of a 2013 Hyundai Elantra Limited PZEV is offered by CDJR Franklin. When you purchase a vehicle with the CARFAX Buyback Guarantee, you're getting what you paid for. The Hyundai Elantra Limited PZEV is economically and environmentally smart."
+    },
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": "2006",
+      "price": "5500",
+      "description": "This Corolla is a Local Trade with Clean Carfax History and is nicely equipped with Power Moonroof, 6-Speaker AM/FM/CD/MP3 Audio System, along with Alloy Wheels, Cruise Control, and Fog Lamps, plus Power steering, Power Windows, and Remote Keyless Entry."
+    }
+  ]
+}
